@@ -2,11 +2,8 @@ Source: xf86-video-btsm750
 Section: x11
 Priority: optional
 Maintainer: Konstantin Kirik (snegovick) <snegovick@uprojects.org>
-Build-Depends: autoconf (>= 2.64),
-               automake (>= 1.11),
-               autopoint,
-               autotools-dev,
-               debhelper (>= 9),
+Build-Depends: debhelper (>= 9),
+               dh-autoreconf,
                gettext,
                xutils-dev
 Standards-Version: 3.9.4
