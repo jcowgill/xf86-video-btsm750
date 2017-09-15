@@ -2,7 +2,7 @@
 # -*- makefile -*-
 
 %:
-	dh $@ --with autoreconf
+	dh $@ --with autoreconf,xsf
 
 override_dh_auto_configure:
 	dh_auto_configure -- --libdir=/usr/lib

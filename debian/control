@@ -19,6 +19,11 @@ Homepage: http://github.com/snegovick/xf86-video-btsm750
 
 Package: xf86-video-btsm750
 Architecture: mipsel
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ ${xviddriver:Depends}
+Provides:
+ ${xviddriver:Provides}
 Description: X.Org X server -- siliconmotion sm750 display driver
   This package provides the driver for siliconmotion sm750 chip on Baikal-T1 based boards.
