@@ -1,4 +1,4 @@
-Source: xf86-video-btsm750
+Source: xserver-xorg-video-btsm750
 Section: x11
 Priority: optional
 Maintainer: Konstantin Kirik (snegovick) <snegovick@uprojects.org>
@@ -17,7 +17,7 @@ Build-Depends:
 Standards-Version: 3.9.4
 Homepage: http://github.com/snegovick/xf86-video-btsm750
 
-Package: xf86-video-btsm750
+Package: xserver-xorg-video-btsm750
 Architecture: mipsel
 Depends:
  ${shlibs:Depends},
